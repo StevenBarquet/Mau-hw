@@ -1,16 +1,57 @@
-body{
-  background: url(https://www.tonica.la/export/sites/debate/img/2021/05/12/makima-chainsaw-man.jpg_1663081580.jpg) no-repeat center center fixed;
+:root{
+  --ColorPrimaryText: #4cc2c0;
+}
+
+body {
+  background: url(https://www.tonica.la/export/sites/debate/img/2021/05/12/makima-chainsaw-man.jpg_1663081580.jpg)
+    no-repeat center center fixed;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
   color: white;
-  }
+}
 svg {
   color: black;
 }
 
 .ant-btn {
+  border-radius: 15px;
+}
+
+.ant-btn :hover {
+  color: #4cc2c0;
+}
+.ant-btn-primary {
+  background-color: white;
+  border-color: var(--ColorPrimaryText);
+  color: var(--ColorPrimaryText);
+}
+
+.ant-card-body {
   border: none;
-  background-color: transparent;
+}
+
+.ant-col.ant-col-8 {
+  padding: 1rem;
+}
+.ant-row.ant-row-end {
+  justify-content: space-between;
+}
+
+.ant-btn.ant-btn-primary{
+  background-color: white;
+  box-shadow: 5px 5px 5px var(--ColorPrimaryText);
+  
+}
+.ant-btn.ant-btn-primary :hover{
+  color: var(--ColorPrimaryText);
+}
+
+.Serching{
+  display: flex;
+  justify-content: center;
+  background-color: #2f2c2c;
+  padding-top: 130px;
+  padding-bottom: 200px;
 }

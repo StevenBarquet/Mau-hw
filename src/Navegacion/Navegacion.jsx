@@ -4,7 +4,7 @@ import { Button, Menu, Dropdown } from "antd";
 import { Row, Col } from "antd";
 import { DownOutlined } from "@ant-design/icons";
 //----Components
-import Icons from "../Icons/Icons";
+// import Iconitos from "../Icons/Iconitos"
 
 const menu = (
   <Menu>
@@ -30,6 +30,12 @@ export default function Navegacion() {
   return (
     <Row justify="end">
       <Col>
+        <img
+          src="//www.coolweb.design/wp-content/uploads/2018/06/Cool-Web-Design-01-1-e1528272124388.png"
+          alt="Cool"
+        />
+      </Col>
+      <Col>
         <Button type="text">Home</Button>
         <Dropdown overlay={menu2}>
           <a className="ant-dropdown-link" onClick={(e) => e.preventDefault()}>
@@ -45,7 +51,9 @@ export default function Navegacion() {
         <Button type="text">Our Agency</Button>
         <Button type="text">contacts</Button>
       </Col>
-      {/* <Col><Icons /></Col> */}
+      {/* <Row>
+     <Col><Iconitos /></Col>
+      </Row>     */}
     </Row>
   );
 }
