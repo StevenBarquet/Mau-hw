@@ -1,9 +1,10 @@
-//--- Dependancys
-import React from "react";
-import { Button, Menu, Dropdown } from "antd";
-import { Row, Col } from "antd";
-import { DownOutlined } from "@ant-design/icons";
-//----Components
+// --- Dependancys
+import React from 'react';
+import {
+  Button, Menu, Dropdown, Row, Col,
+} from 'antd';
+import { DownOutlined } from '@ant-design/icons';
+// ----Components
 // import Iconitos from "../Icons/Iconitos"
 
 const menu = (
@@ -38,13 +39,17 @@ export default function Navegacion() {
       <Col>
         <Button type="text">Home</Button>
         <Dropdown overlay={menu2}>
-          <a className="ant-dropdown-link" onClick={(e) => e.preventDefault()}>
-            Services <DownOutlined />
+          <a className="ant-dropdown-link" href="/">
+            Services
+            {' '}
+            <DownOutlined />
           </a>
         </Dropdown>
         <Dropdown overlay={menu}>
-          <a className="ant-dropdown-link" onClick={(e) => e.preventDefault()}>
-            Shop <DownOutlined />
+          <a className="ant-dropdown-link" href="/">
+            Shop
+            {' '}
+            <DownOutlined />
           </a>
         </Dropdown>
         <Button type="text">Case Studies</Button>

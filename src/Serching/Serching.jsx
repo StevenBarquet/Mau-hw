@@ -1,5 +1,5 @@
-import { Row, Col, Button } from "antd";
-import SerchingImputs from "./SerchingImputs";
+import { Row, Col, Button } from 'antd';
+import SerchingImputs from './SerchingImputs';
 
 export default function Serching() {
   return (

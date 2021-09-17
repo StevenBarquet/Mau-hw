@@ -1,7 +1,7 @@
-//--- Dependancys
-import React from "react";
-import { SyncOutlined } from "@ant-design/icons";
-import { Row, Col } from "antd";
+// --- Dependancys
+import React from 'react';
+import { SyncOutlined } from '@ant-design/icons';
+import { Row, Col } from 'antd';
 
 export default function Icons() {
   return (

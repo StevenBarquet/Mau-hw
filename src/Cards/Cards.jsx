@@ -1,12 +1,15 @@
-import { Card, Avatar, Button, Row, Col } from "antd";
-import { SearchOutlined } from "@ant-design/icons";
+import React from 'react';
+import {
+  Card, Avatar, Button, Row, Col,
+} from 'antd';
+import { SearchOutlined } from '@ant-design/icons';
 
 const { Meta } = Card;
 
 export default function Cards() {
   return (
-    <Row justify= "center">
-      <Col  span={8}>
+    <Row justify="center">
+      <Col span={8}>
         <Card
           style={{ width: 300 }}
           actions={[
@@ -20,10 +23,11 @@ export default function Cards() {
               <Avatar src="https://www.coolweb.design/wp-content/uploads/2018/06/icon-01.png" />
             }
             title="Custom Website Desing"
-            description="You'll get a modern website that delivers excellent results for bussines"          />
+            description="You'll get a modern website that delivers excellent results for bussines"
+          />
         </Card>
       </Col>
-      <Col  span={8}>
+      <Col span={8}>
         <Card
           style={{ width: 300 }}
           actions={[
@@ -37,10 +41,11 @@ export default function Cards() {
               <Avatar src="https://www.coolweb.design/wp-content/uploads/2018/06/Rezdy-icon.jpg" />
             }
             title="Online Tour Bookings"
-            description="If you're a tour bussines and not selling your activities online, you're missing out on a ton of easy business"          />
+            description="If you're a tour bussines and not selling your activities online, you're missing out on a ton of easy business"
+          />
         </Card>
       </Col>
-      <Col  span={8}>
+      <Col span={8}>
         <Card
           style={{ width: 300 }}
           actions={[
@@ -58,7 +63,7 @@ export default function Cards() {
           />
         </Card>
       </Col>
-      <Col  span={8}>
+      <Col span={8}>
         <Card
           style={{ width: 300 }}
           actions={[
@@ -76,7 +81,7 @@ export default function Cards() {
           />
         </Card>
       </Col>
-      <Col  span={8}>
+      <Col span={8}>
         <Card
           style={{ width: 300 }}
           actions={[
@@ -94,7 +99,7 @@ export default function Cards() {
           />
         </Card>
       </Col>
-      <Col  span={8}>
+      <Col span={8}>
         <Card
           style={{ width: 300 }}
           actions={[
